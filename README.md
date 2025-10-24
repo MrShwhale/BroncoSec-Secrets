@@ -1,0 +1,3 @@
+This is (really) mostly a copy of a web project I made over the summer. Don't judge too harshly...
+Anyways, I updated it to have my new favorite API key. And then when that went badly, I updated it to have my new key!
+Now no one can get my old key, at least :)
