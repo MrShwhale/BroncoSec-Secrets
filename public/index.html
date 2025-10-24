@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Musical Guessing Game</title>
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="icon" href="assets/icon.svg">
+    </head>
+    <body>
+        <div class="titlebar">
+            <h1>Musical Guessing Game</h1>
+        </div>
+        <div class="page-content">
+            <div id="stats-panel"></div>
+            <main role="main">
+                <img id="musical-banner">
+                <blockquote id="musical-text"></blockquote>
+                <div id="musical-holder"></div>
+                <footer><p>Made with love for musicals <sup>(and hate for JS)</sup> by <a href="https://github.com/MrShwhale">MrShwhale</a></p></footer>
+            </main>
+            <div id="settings-panel">
+                <button id="hide-settings"><img src="assets/arrow.svg" alt=""></button>
+                <h1>Settings</h1>
+                <div>
+                    <input type="checkbox" name="albumWeight" id="album-weight"><span>Weight musicals by song count?</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="songWeight" id="song-weight"><span>Weight songs by possible starts?</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="giveMusical" id="give-musical"><span>Reveal which musical is being guessed?</span>
+                </div>
+                <h2>Per-musical Settings</h2>
+                <div id="album-settings"></div>
+                <div class="settings-buttons">
+                <button type="button" id="apply-settings">Apply</button>
+                <button type="button" id="reset-settings">Reset</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="script/songs.js"></script>
+    <script src="script/game.js"></script>
+</html>
