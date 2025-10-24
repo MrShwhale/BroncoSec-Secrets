@@ -164,8 +164,8 @@ function setHeaderImage() {
 // Sets all associated variables
 // Also sets the HTML of the musical holder/stats panel
 function pickNewLine() {
-  // Trying out my new "line" API with this special key!
-  API_KEY = "bronco-saldkbpoitepqownbutpoqwiuetbnpoqwubiepnqcmwep-xqwoeivtqpneviptqwoeiut"
+  // My last key SOMEHOW got compromised... so now I'll use my new one!
+  API_KEY = "bronco-0159827351-2687-12098-10275-12601985120935710235135910235156092387481"
   if (albumsWeighted) {
     musicalIndex = getRandomWeightedInt(
       albumsInRotation.length,
